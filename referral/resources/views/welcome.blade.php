@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                  @if (!Auth::check()) {
+                  @if (!Auth::check()) 
                   <a href="auth/facebook" role="button" class="btn btn-info">FB Login</a>
                     Your Application's Landing Page.
                   @endif

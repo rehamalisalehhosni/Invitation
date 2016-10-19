@@ -12,7 +12,7 @@
                 </div>
                 <h4>Your Name is: {{ Auth::user()->name }}</h4>
                 <h4>Your Name is: {{ Auth::user()->email }}</h4>
-                <img src='{{ Auth::user()->avatar }}' width="200px" height="200px"/>
+                <img src="{{ Auth::user()->avatar }}" width="200px" height="200px"/>
             </div>
         </div>
     </div>

@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "laravel/socialite": "^2.0",
         "jrean/laravel-user-verification": "^2.2",
-        "hootlex/laravel-friendships": "^1.0"
+        "hootlex/laravel-friendships": "^1.0",
+        "kevupton/referrals": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

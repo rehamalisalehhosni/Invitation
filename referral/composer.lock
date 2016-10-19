@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2f593647ff8805dac4128db9c174050",
-    "content-hash": "b9027ce258352018bd33f3aeb46f6f40",
+    "hash": "544cbf07a9e22975df97e410801ed6d9",
+    "content-hash": "2bf8fc12ec222d19b2bc17065a35ed32",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -570,6 +570,94 @@
                 "user verification"
             ],
             "time": "2016-09-10 21:49:40"
+        },
+        {
+            "name": "kevupton/ethereal",
+            "version": "v2.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kevupton/ethereal.git",
+                "reference": "67324427e7be4d8491829d0b2f63fe87d15e0edc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kevupton/ethereal/zipball/67324427e7be4d8491829d0b2f63fe87d15e0edc",
+                "reference": "67324427e7be4d8491829d0b2f63fe87d15e0edc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "Kevupton\\Ethereal\\": "src/Kevupton/Ethereal/"
+                },
+                "files": [
+                    "src/Kevupton/Ethereal/Helpers/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Upton",
+                    "email": "uptonkg@gmail.com"
+                }
+            ],
+            "description": "Extension functionality for laravel",
+            "keywords": [
+                "eloquent",
+                "ethereal",
+                "laravel"
+            ],
+            "time": "2016-05-07 05:15:52"
+        },
+        {
+            "name": "kevupton/referrals",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kevupton/referrals.git",
+                "reference": "7d135f219791d7fb26888f6c7c652db5e2630e68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kevupton/referrals/zipball/7d135f219791d7fb26888f6c7c652db5e2630e68",
+                "reference": "7d135f219791d7fb26888f6c7c652db5e2630e68",
+                "shasum": ""
+            },
+            "require": {
+                "kevupton/ethereal": "^2.0",
+                "php": ">=5.3"
+            },
+            "type": "extension",
+            "autoload": {
+                "psr-4": {
+                    "Kevupton\\Referrals\\": "src/Kevupton/Referrals/"
+                },
+                "files": [
+                    "src/Kevupton/Referrals/Helpers/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Upton",
+                    "email": "uptonkg@gmail.com"
+                }
+            ],
+            "description": "Referral System for laravel",
+            "keywords": [
+                "laravel",
+                "referrals"
+            ],
+            "time": "2016-04-27 06:46:21"
         },
         {
             "name": "laravel/framework",
